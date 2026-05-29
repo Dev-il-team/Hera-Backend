@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevilTeam.Hera.Platform", "DevilTeam.Hera.Platform\DevilTeam.Hera.Platform.csproj", "{620FBF1A-F501-4A27-B9C6-D15D78880EDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{620FBF1A-F501-4A27-B9C6-D15D78880EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620FBF1A-F501-4A27-B9C6-D15D78880EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620FBF1A-F501-4A27-B9C6-D15D78880EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620FBF1A-F501-4A27-B9C6-D15D78880EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
