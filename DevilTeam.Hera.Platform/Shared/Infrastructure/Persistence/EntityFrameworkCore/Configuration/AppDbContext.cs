@@ -1,4 +1,6 @@
-﻿using DevilTeam.Hera.Platform.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration.Extensions;
+﻿using DevilTeam.Hera.Platform.Automation.Domain.Model.Aggregates;
+using DevilTeam.Hera.Platform.Automation.Infrastructure.Persistence.EFC.Configuration;
+using DevilTeam.Hera.Platform.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration.Extensions;
 using DevilTeam.Hera.Platform.Shared.Infrastructure.Persistence.EntityFrameworkCore.Interceptors;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,6 +14,9 @@ namespace DevilTeam.Hera.Platform.Shared.Infrastructure.Persistence.EntityFramew
 /// </param>
 public class AppDbContext(DbContextOptions options) : DbContext(options)
 {
+    // Automation 
+    public DbSet<AutomationRule> AutomationRules { get; set; }
+
     /// <inheritdoc />
     protected override void OnConfiguring(DbContextOptionsBuilder builder)
     {
@@ -34,5 +39,8 @@ public class AppDbContext(DbContextOptions options) : DbContext(options)
 
         // General Naming Convention for the database objects
         builder.UseSnakeCaseNamingConvention();
+
+        // Automation 
+        builder.ApplyConfiguration(new AutomationRuleConfiguration());
     }
 }
