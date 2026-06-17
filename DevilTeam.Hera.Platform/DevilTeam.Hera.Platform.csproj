@@ -13,7 +13,7 @@
         <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="10.0.8"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Relational.Design" Version="1.1.6"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.8"/>
-        <PackageReference Include="MySql.EntityFrameworkCore" Version="10.0.7"/>
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.2"/>
         <PackageReference Include="Humanizer" Version="3.0.10"/>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.0"/>
         <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="10.2.0"/>
@@ -25,13 +25,16 @@
     </ItemGroup>
 
     <ItemGroup>
+        <!-- IAM Bounded Context localized messages -->
+        <EmbeddedResource Update="Iam\Resources\IamMessages.es.resx">
+            <DependentUpon>IamMessages.cs</DependentUpon>
+        </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
       <EmbeddedResource Update="Shared\Resources\CommonMessages.resx">
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>CommonMessages.Designer.cs</LastGenOutput>
-      </EmbeddedResource>
-      <EmbeddedResource Update="Shared\Resources\Errors\ErrorMessages.es.resx">
-        <Generator>ResXFileCodeGenerator</Generator>
-        <LastGenOutput>ErrorMessages.es.Designer.cs</LastGenOutput>
       </EmbeddedResource>
     </ItemGroup>
 
@@ -40,11 +43,6 @@
         <DesignTime>True</DesignTime>
         <AutoGen>True</AutoGen>
         <DependentUpon>CommonMessages.resx</DependentUpon>
-      </Compile>
-      <Compile Update="Shared\Resources\Errors\ErrorMessages.es.Designer.cs">
-        <DesignTime>True</DesignTime>
-        <AutoGen>True</AutoGen>
-        <DependentUpon>ErrorMessages.es.resx</DependentUpon>
       </Compile>
     </ItemGroup>
 
