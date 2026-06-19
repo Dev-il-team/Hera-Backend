@@ -5,13 +5,14 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
 namespace DevilTeam.Hera.Platform.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260619131819_InitialDevicesManagement")]
+    [Migration("20260619185150_InitialDevicesManagement")]
     partial class InitialDevicesManagement
     {
         /// <inheritdoc />
@@ -20,44 +21,48 @@ namespace DevilTeam.Hera.Platform.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "10.0.8")
-                .HasAnnotation("Relational:MaxIdentifierLength", 64);
+                .HasAnnotation("Relational:MaxIdentifierLength", 63);
+
+            NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
             modelBuilder.Entity("DevilTeam.Hera.Platform.DevicesManagement.Domain.Model.Aggregates.Device", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
+                        .HasColumnType("integer")
                         .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Connectivity")
                         .IsRequired()
-                        .HasColumnType("longtext")
+                        .HasColumnType("text")
                         .HasColumnName("connectivity");
 
                     b.Property<DateTimeOffset?>("CreatedAt")
-                        .HasColumnType("datetime")
+                        .HasColumnType("timestamp with time zone")
                         .HasColumnName("created_at");
 
                     b.Property<bool>("IsOn")
-                        .HasColumnType("tinyint(1)")
+                        .HasColumnType("boolean")
                         .HasColumnName("is_on");
 
                     b.Property<int?>("OwnerId")
-                        .HasColumnType("int")
+                        .HasColumnType("integer")
                         .HasColumnName("owner_id");
 
                     b.Property<string>("Room")
                         .IsRequired()
-                        .HasColumnType("longtext")
+                        .HasColumnType("text")
                         .HasColumnName("room");
 
                     b.Property<string>("Type")
                         .IsRequired()
-                        .HasColumnType("longtext")
+                        .HasColumnType("text")
                         .HasColumnName("type");
 
                     b.Property<DateTimeOffset?>("UpdatedAt")
-                        .HasColumnType("datetime")
+                        .HasColumnType("timestamp with time zone")
                         .HasColumnName("updated_at");
 
                     b.HasKey("Id")
@@ -71,12 +76,12 @@ namespace DevilTeam.Hera.Platform.Migrations
                     b.OwnsOne("DevilTeam.Hera.Platform.DevicesManagement.Domain.Model.ValueObjects.DeviceCode", "Code", b1 =>
                         {
                             b1.Property<int>("Id")
-                                .HasColumnType("int")
+                                .HasColumnType("integer")
                                 .HasColumnName("id");
 
                             b1.Property<string>("Value")
                                 .IsRequired()
-                                .HasColumnType("longtext")
+                                .HasColumnType("text")
                                 .HasColumnName("code");
 
                             b1.HasKey("Id")
@@ -92,13 +97,13 @@ namespace DevilTeam.Hera.Platform.Migrations
                     b.OwnsOne("DevilTeam.Hera.Platform.DevicesManagement.Domain.Model.ValueObjects.DeviceName", "Name", b1 =>
                         {
                             b1.Property<int>("Id")
-                                .HasColumnType("int")
+                                .HasColumnType("integer")
                                 .HasColumnName("id");
 
                             b1.Property<string>("Value")
                                 .IsRequired()
                                 .HasMaxLength(50)
-                                .HasColumnType("varchar(50)")
+                                .HasColumnType("character varying(50)")
                                 .HasColumnName("name");
 
                             b1.HasKey("Id")
