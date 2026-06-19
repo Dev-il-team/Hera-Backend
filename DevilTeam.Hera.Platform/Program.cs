@@ -37,7 +37,7 @@ builder.Services.AddDbContext<AppDbContext>((serviceProvider, options) =>
     if (string.IsNullOrWhiteSpace(connectionString))
         throw new InvalidOperationException("Database connection string 'DefaultConnection' is not set.");
 
-    options.UseMySQL(connectionString)
+    options.UseNpgsql(connectionString)
         .UseLoggerFactory(serviceProvider.GetRequiredService<ILoggerFactory>())
         .EnableDetailedErrors();
 
