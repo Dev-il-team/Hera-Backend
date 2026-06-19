@@ -2,6 +2,8 @@
 using DevilTeam.Hera.Platform.Shared.Infrastructure.Persistence.EntityFrameworkCore.Interceptors;
 using Microsoft.EntityFrameworkCore;
 
+using DevilTeam.Hera.Platform.DevicesManagement.Infrastructure.Persistence.EntityFrameworkCore.Configuration.Extensions;
+
 namespace DevilTeam.Hera.Platform.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration;
 
 public class AppDbContext(DbContextOptions options) : DbContext(options)
@@ -15,6 +17,7 @@ public class AppDbContext(DbContextOptions options) : DbContext(options)
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
+        builder.ApplyDevicesManagementConfiguration();
 
         builder.UseSnakeCaseNamingConvention();
     }
