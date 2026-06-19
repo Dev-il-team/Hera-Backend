@@ -1,6 +1,58 @@
 @DevilTeam.Hera.Platform_HostAddress = http://localhost:5201
 
-GET {{DevilTeam.Hera.Platform_HostAddress}}/weatherforecast/
+### List all devices (US12 / US36)
+GET {{DevilTeam.Hera.Platform_HostAddress}}/api/v1/devices
 Accept: application/json
+
+### Link a new device (US11 / US37)
+POST {{DevilTeam.Hera.Platform_HostAddress}}/api/v1/devices
+Content-Type: application/json
+
+{
+  "name": "Foco de la sala",
+  "type": "Light",
+  "room": "Sala",
+  "code": "HERA-LIGHT-001",
+  "ownerId": 1
+}
+
+### Get a device by id
+GET {{DevilTeam.Hera.Platform_HostAddress}}/api/v1/devices/1
+Accept: application/json
+
+### Rename a device (US13)
+PATCH {{DevilTeam.Hera.Platform_HostAddress}}/api/v1/devices/1/name
+Content-Type: application/json
+
+{
+  "name": "Foco principal"
+}
+
+### Assign a device to a room (US15)
+PATCH {{DevilTeam.Hera.Platform_HostAddress}}/api/v1/devices/1/room
+Content-Type: application/json
+
+{
+  "room": "Dormitorio Principal"
+}
+
+### Turn a device on/off (US17 / US38)
+PATCH {{DevilTeam.Hera.Platform_HostAddress}}/api/v1/devices/1/status
+Content-Type: application/json
+
+{
+  "isOn": true
+}
+
+### Unlink (delete) a device (US14)
+DELETE {{DevilTeam.Hera.Platform_HostAddress}}/api/v1/devices/1
+
+### Invalid: name over 50 chars -> 400 (US13 validation)
+PATCH {{DevilTeam.Hera.Platform_HostAddress}}/api/v1/devices/1/name
+Content-Type: application/json
+
+{
+  "name": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}
 
 ###
