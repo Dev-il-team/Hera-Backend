@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="GenericError" xml:space="preserve">
+    <value>Ocurrió un error.</value>
+  </data>
+    <data name="OperationCancelled" xml:space="preserve">
+    <value>La operación fue cancelada.</value>
+  </data>
+    <data name="IamError.UserNotFound" xml:space="preserve">
+    <value>Usuario no encontrado.</value>
+  </data>
+    <data name="IamError.UsernameAlreadyTaken" xml:space="preserve">
+    <value>El nombre de usuario {0} ya está en uso.</value>
+  </data>
+    <data name="IamError.InvalidCredentials" xml:space="preserve">
+    <value>Nombre de usuario o contraseña inválidos.</value>
+  </data>
+    <data name="IamError.OperationCancelled" xml:space="preserve">
+    <value>La operación de usuario fue cancelada.</value>
+  </data>
+    <data name="IamError.DatabaseError" xml:space="preserve">
+    <value>Ocurrió un error de base de datos durante la operación IAM.</value>
+  </data>
+    <data name="IamError.InternalServerError" xml:space="preserve">
+    <value>Ocurrió un error interno inesperado en IAM.</value>
+  </data>
+    <data name="IamError.ExternalServiceError" xml:space="preserve">
+    <value>Ocurrió un error de servicio externo en IAM.</value>
+  </data>
+
+    <data name="ProfilesError.ProfileNotFound" xml:space="preserve">
+    <value>Perfil no encontrado.</value>
+  </data>
+    <data name="ProfilesError.EmailAlreadyRegistered" xml:space="preserve">
+    <value>La dirección de correo electrónico {0} ya está registrada.</value>
+  </data>
+    <data name="ProfilesError.InvalidProfileData" xml:space="preserve">
+    <value>Datos de perfil inválidos proporcionados.</value>
+  </data>
+    <data name="ProfilesError.OperationCancelled" xml:space="preserve">
+    <value>La operación de perfil fue cancelada.</value>
+  </data>
+    <data name="ProfilesError.DatabaseError" xml:space="preserve">
+    <value>Ocurrió un error de base de datos durante la operación de perfil.</value>
+  </data>
+    <data name="ProfilesError.InternalServerError" xml:space="preserve">
+    <value>Ocurrió un error interno inesperado en Perfiles.</value>
+  </data>
+
+    <data name="PublishingError.CategoryNotFound" xml:space="preserve">
+    <value>Categoría no encontrada.</value>
+  </data>
+    <data name="PublishingError.TutorialNotFound" xml:space="preserve">
+    <value>Tutorial no encontrado.</value>
+  </data>
+    <data name="PublishingError.DuplicateTutorialTitle" xml:space="preserve">
+    <value>Ya existe un tutorial con el título {0}.</value>
+  </data>
+    <data name="PublishingError.OperationCancelled" xml:space="preserve">
+    <value>La operación de publicación fue cancelada.</value>
+  </data>
+    <data name="PublishingError.DatabaseError" xml:space="preserve">
+    <value>Ocurrió un error de base de datos durante la operación de publicación.</value>
+  </data>
+    <data name="PublishingError.InternalServerError" xml:space="preserve">
+    <value>Ocurrió un error interno inesperado en Publicación.</value>
+  </data>
+    <data name="DevicesError.RoomNotFound" xml:space="preserve">
+    <value>Habitación no encontrada.</value>
+  </data>
+    <data name="DevicesError.DeviceNotFound" xml:space="preserve">
+    <value>Dispositivo no encontrado.</value>
+  </data>
+    <data name="DevicesError.DuplicateDeviceName" xml:space="preserve">
+    <value>Ya existe un dispositivo llamado {0}.</value>
+  </data>
+    <data name="DevicesError.OperationCancelled" xml:space="preserve">
+    <value>La operación de Dispositivos fue cancelada.</value>
+  </data>
+    <data name="DevicesError.DatabaseError" xml:space="preserve">
+    <value>Ocurrió un error de base de datos durante la operación de Dispositivos.</value>
+  </data>
+    <data name="DevicesError.InternalServerError" xml:space="preserve">
+    <value>Ocurrió un error interno inesperado en Dispositivos.</value>
+  </data>
+    <data name="AutomationError.RoutineNotFound" xml:space="preserve">
+    <value>Rutina no encontrada.</value>
+  </data>
+    <data name="AutomationError.DuplicateRoutineName" xml:space="preserve">
+    <value>Ya existe una rutina llamada {0}.</value>
+  </data>
+    <data name="AutomationError.OperationCancelled" xml:space="preserve">
+    <value>La operación de Automatización fue cancelada.</value>
+  </data>
+    <data name="AutomationError.DatabaseError" xml:space="preserve">
+    <value>Ocurrió un error de base de datos durante la operación de Automatización.</value>
+  </data>
+    <data name="AutomationError.InternalServerError" xml:space="preserve">
+    <value>Ocurrió un error interno inesperado en Automatización.</value>
+  </data>
+    <data name="MonitoringError.CameraNotFound" xml:space="preserve">
+    <value>Cámara no encontrada.</value>
+  </data>
+    <data name="MonitoringError.DuplicateCameraName" xml:space="preserve">
+    <value>Ya existe una cámara llamada {0}.</value>
+  </data>
+    <data name="MonitoringError.OperationCancelled" xml:space="preserve">
+    <value>La operación de Monitoreo fue cancelada.</value>
+  </data>
+    <data name="MonitoringError.DatabaseError" xml:space="preserve">
+    <value>Ocurrió un error de base de datos durante la operación de Monitoreo.</value>
+  </data>
+    <data name="MonitoringError.InternalServerError" xml:space="preserve">
+    <value>Ocurrió un error interno inesperado en Monitoreo.</value>
+  </data>
+    <data name="EnergyAnalyticsError.ConsumptionReportNotFound" xml:space="preserve">
+    <value>Reporte de consumo no encontrado.</value>
+  </data>
+    <data name="EnergyAnalyticsError.OperationCancelled" xml:space="preserve">
+    <value>La operación de Análisis de Energía fue cancelada.</value>
+  </data>
+    <data name="EnergyAnalyticsError.DatabaseError" xml:space="preserve">
+    <value>Ocurrió un error de base de datos durante la operación de Análisis de Energía.</value>
+  </data>
+    <data name="EnergyAnalyticsError.InternalServerError" xml:space="preserve">
+    <value>Ocurrió un error interno inesperado en Análisis de Energía.</value>
+  </data>
+    <data name="SubscriptionsError.SubscriptionNotFound" xml:space="preserve">
+    <value>Suscripción no encontrada.</value>
+  </data>
+    <data name="SubscriptionsError.ProfileAlreadySubscribed" xml:space="preserve">
+    <value>El perfil ya tiene una suscripción activa.</value>
+  </data>
+    <data name="SubscriptionsError.OperationCancelled" xml:space="preserve">
+    <value>La operación de Suscripciones fue cancelada.</value>
+  </data>
+    <data name="SubscriptionsError.DatabaseError" xml:space="preserve">
+    <value>Ocurrió un error de base de datos durante la operación de Suscripciones.</value>
+  </data>
+    <data name="SubscriptionsError.InternalServerError" xml:space="preserve">
+    <value>Ocurrió un error interno inesperado en Suscripciones.</value>
+  </data>
+</root>

@@ -1,0 +1,6 @@
+@Dev-ilTeam.Hera.Platform_HostAddress = http://localhost:5191
+
+GET {{Dev-ilTeam.Hera.Platform_HostAddress}}/api/v1/devices
+Accept: application/json
+
+###
