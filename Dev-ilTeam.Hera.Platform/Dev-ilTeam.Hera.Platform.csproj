@@ -56,4 +56,10 @@
         </EmbeddedResource>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="EnergyAnalytics\Application\" />
+      <Folder Include="EnergyAnalytics\Infrastructure\" />
+      <Folder Include="EnergyAnalytics\Interfaces\" />
+    </ItemGroup>
+
 </Project>
