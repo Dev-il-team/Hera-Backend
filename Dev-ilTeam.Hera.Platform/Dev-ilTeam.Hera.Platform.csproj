@@ -60,6 +60,7 @@
       <Folder Include="Monitoring\Application\" />
       <Folder Include="Monitoring\Domain\" />
       <Folder Include="Monitoring\Infrastructure\" />
+      <Folder Include="Monitoring\Interfaces\" />
     </ItemGroup>
 
 </Project>
