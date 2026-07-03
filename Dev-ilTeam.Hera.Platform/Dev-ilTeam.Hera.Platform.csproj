@@ -57,6 +57,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="Monitoring\Application\" />
       <Folder Include="Monitoring\Domain\" />
       <Folder Include="Monitoring\Infrastructure\" />
     </ItemGroup>
