@@ -4,8 +4,7 @@ Backend (Web Services) del proyecto **Smart Home HERA** (Dev-il-team). Plataform
 gestión integral de hogares inteligentes (IoT): centraliza el control, monitoreo, automatización
 y análisis de consumo de los dispositivos del hogar.
 
-Construido con .NET / ASP.NET Core siguiendo **Domain-Driven Design (DDD)** y CQRS, replicando la
-estructura y patrones del proyecto de referencia `learning-center-platform`.
+Construido con .NET / ASP.NET Core siguiendo **Domain-Driven Design (DDD)** y CQRS
 
 ## Bounded Contexts
 
