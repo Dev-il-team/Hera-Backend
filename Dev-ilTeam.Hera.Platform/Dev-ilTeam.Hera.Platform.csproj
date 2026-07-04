@@ -82,4 +82,8 @@
       <Folder Include="Profiles\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Subscriptions\" />
+    </ItemGroup>
+
 </Project>
