@@ -15,7 +15,10 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c49a340-27c1-4c78-8fe6-7d122071bbe1" name="Changes" comment="" />
+    <list default="true" id="3c49a340-27c1-4c78-8fe6-7d122071bbe1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.hera-platform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hera-platform/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev-ilTeam.Hera.Platform/EnergyAnalytics/Interfaces/REST/Transform/RecordConsumptionCommandFromResourceAssembler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev-ilTeam.Hera.Platform/EnergyAnalytics/Interfaces/REST/Transform/RecordConsumptionCommandFromResourceAssembler.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,73 +27,77 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.ai/mcp/mcp.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.8492395205458767" />
-      <entry key="MS500" value="2.683194690975495" />
-      <entry key="S2" value="5.302713387987542" />
-      <entry key="S5" value="9.177189866424158" />
-      <entry key="S10" value="11.597841129386694" />
-      <entry key="S30" value="13.73414742451055" />
-      <entry key="S60" value="14.348927853446721" />
-      <entry key="M2" value="14.67605232874687" />
-      <entry key="M5" value="18.483882557369984" />
-      <entry key="M10" value="46.169817597029585" />
-      <entry key="M15" value="79.3163666823076" />
-      <entry key="M30" value="147.87399895560338" />
-      <entry key="H1" value="206.10920041719694" />
-      <entry key="H2" value="244.23468897683657" />
-      <entry key="H4" value="266.07285079824817" />
-      <entry key="D1" value="285.85878551992937" />
-      <entry key="W1" value="289.4045292093432" />
+      <entry key="MS100" value="1.6579068132752577" />
+      <entry key="MS500" value="4.669868781361746" />
+      <entry key="S2" value="7.438546986825744" />
+      <entry key="S5" value="8.320606099320717" />
+      <entry key="S10" value="8.650334158999744" />
+      <entry key="S30" value="8.881198683931139" />
+      <entry key="S60" value="8.961647708768558" />
+      <entry key="M2" value="9.605202501403708" />
+      <entry key="M5" value="15.18328727920939" />
+      <entry key="M10" value="34.905658412555574" />
+      <entry key="M15" value="62.275796839956165" />
+      <entry key="M30" value="130.65985409292244" />
+      <entry key="H1" value="198.13164767158395" />
+      <entry key="H2" value="246.05967480535446" />
+      <entry key="H4" value="274.6989762703721" />
+      <entry key="D1" value="301.34274779145863" />
+      <entry key="W1" value="306.1848476045088" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0010394240063021083" />
-      <entry key="MS500" value="0.25313870183762316" />
-      <entry key="S2" value="0.7093158053708453" />
-      <entry key="S5" value="0.8716373965602795" />
-      <entry key="S10" value="0.9336152293960718" />
-      <entry key="S30" value="0.9773631842654087" />
-      <entry key="S60" value="0.9886168057816711" />
-      <entry key="M2" value="0.9943393309888789" />
-      <entry key="M5" value="1.0163186857587116" />
-      <entry key="M10" value="1.135258749010548" />
-      <entry key="M15" value="1.2642187243592977" />
-      <entry key="M30" value="1.5143821552173107" />
-      <entry key="H1" value="1.7172795569209056" />
-      <entry key="H2" value="1.8469408138974432" />
-      <entry key="H4" value="1.9202980023097667" />
-      <entry key="D1" value="1.9862529849256398" />
-      <entry key="W1" value="1.998024484581197" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="2.4402615673073515E-97" />
+      <entry key="S5" value="3.2172013936085433E-39" />
+      <entry key="S10" value="7.924437753201613E-20" />
+      <entry key="S30" value="6.799460871094721E-7" />
+      <entry key="S60" value="0.0011657387858101608" />
+      <entry key="M2" value="0.04828230844622775" />
+      <entry key="M5" value="0.45512384735804085" />
+      <entry key="M10" value="1.014343904288584" />
+      <entry key="M15" value="1.3784025668892912" />
+      <entry key="M30" value="1.961705230984026" />
+      <entry key="H1" value="2.400085140851188" />
+      <entry key="H2" value="2.6756055605445517" />
+      <entry key="H4" value="2.8310551908904036" />
+      <entry key="D1" value="2.9708452477394505" />
+      <entry key="W1" value="2.9958097845446146" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.7736179443519973" />
-      <entry key="MS500" value="2.6773875183519853" />
-      <entry key="S2" value="5.650411138687525" />
-      <entry key="S5" value="9.830146235435455" />
-      <entry key="S10" value="12.40494844133786" />
-      <entry key="S30" value="14.664911191892534" />
-      <entry key="S60" value="15.313647155891813" />
-      <entry key="M2" value="15.658288456005073" />
-      <entry key="M5" value="19.494971948716685" />
-      <entry key="M10" value="47.301092167439755" />
-      <entry key="M15" value="80.57682994785696" />
-      <entry key="M30" value="149.38536160077996" />
-      <entry key="H1" value="207.82448378642096" />
-      <entry key="H2" value="246.08047221305554" />
-      <entry key="H4" value="267.99252429872485" />
-      <entry key="D1" value="287.84492751489404" />
-      <entry key="W1" value="291.4025376613625" />
+      <entry key="MS100" value="1.5821416035978901" />
+      <entry key="MS500" value="4.5642563167514325" />
+      <entry key="S2" value="7.39066958618618" />
+      <entry key="S5" value="8.298859220749115" />
+      <entry key="S10" value="8.638983291029795" />
+      <entry key="S30" value="8.877304944253888" />
+      <entry key="S60" value="8.960806871544765" />
+      <entry key="M2" value="9.651777180394742" />
+      <entry key="M5" value="15.63543168490985" />
+      <entry key="M10" value="35.91648000778998" />
+      <entry key="M15" value="63.65056925527547" />
+      <entry key="M30" value="132.61836740747302" />
+      <entry key="H1" value="200.5295023244579" />
+      <entry key="H2" value="248.7339452785032" />
+      <entry key="H4" value="277.5292989150296" />
+      <entry key="D1" value="304.3134609275182" />
+      <entry key="W1" value="309.18063825654855" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3G1iOVTt6RxY96TPnmk6FWqoxMO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -98,6 +105,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.Dev-ilTeam.Hera.Platform: IIS Express.executor": "Run",
+    ".NET Launch Settings Profile.Dev-ilTeam.Hera.Platform: http.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -108,16 +117,17 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "feature/devices",
+    "git-widget-placeholder": "develop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Dev-ilTeam.Hera.Platform: IIS Express">
+  <component name="RunManager" selected=".NET Launch Settings Profile.Dev-ilTeam.Hera.Platform: http">
     <configuration name="Dev-ilTeam.Hera.Platform: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Dev-ilTeam.Hera.Platform/Dev-ilTeam.Hera.Platform.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
@@ -181,6 +191,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
