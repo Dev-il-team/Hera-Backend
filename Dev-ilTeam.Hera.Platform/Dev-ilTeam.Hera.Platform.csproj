@@ -70,4 +70,12 @@
       <Folder Include="Devices\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Monitoring\Application\" />
+      <Folder Include="Monitoring\Domain\" />
+      <Folder Include="Monitoring\Infrastructure\" />
+      <Folder Include="Monitoring\Interfaces\" />
+      <Folder Include="Monitoring\Resources\" />
+    </ItemGroup>
+
 </Project>
