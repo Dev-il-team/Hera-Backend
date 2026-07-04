@@ -78,4 +78,8 @@
       <Folder Include="Monitoring\Resources\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Profiles\" />
+    </ItemGroup>
+
 </Project>
