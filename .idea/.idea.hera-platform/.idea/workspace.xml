@@ -8,13 +8,14 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
   <component name="CMakeSettings">
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ece6f37-fb8b-487c-bfe9-775b61a4b4d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Dev-ilTeam.Hera.Platform/Dev-ilTeam.Hera.Platform.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Dev-ilTeam.Hera.Platform/Dev-ilTeam.Hera.Platform.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="3c49a340-27c1-4c78-8fe6-7d122071bbe1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,75 +28,179 @@
     <commands />
     <urls />
   </component>
-  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0146800429564689" />
-      <entry key="MS500" value="1.4305604296589776" />
-      <entry key="S2" value="2.3376207894729415" />
-      <entry key="S5" value="5.280213198138278" />
-      <entry key="S10" value="11.99216290704915" />
-      <entry key="S30" value="45.37661078448437" />
-      <entry key="S60" value="86.366949056554" />
-      <entry key="M2" value="135.16821739503024" />
-      <entry key="M5" value="187.56945568352302" />
-      <entry key="M10" value="211.55739557524274" />
-      <entry key="M15" value="220.49955508061512" />
-      <entry key="M30" value="229.968514292969" />
-      <entry key="H1" value="234.91160990315709" />
-      <entry key="H2" value="237.43734274847142" />
-      <entry key="H4" value="238.71401769904148" />
-      <entry key="D1" value="239.78502000974035" />
-      <entry key="W1" value="239.96927262135094" />
+      <entry key="MS100" value="1.8492395205458767" />
+      <entry key="MS500" value="2.683194690975495" />
+      <entry key="S2" value="5.302713387987542" />
+      <entry key="S5" value="9.177189866424158" />
+      <entry key="S10" value="11.597841129386694" />
+      <entry key="S30" value="13.73414742451055" />
+      <entry key="S60" value="14.348927853446721" />
+      <entry key="M2" value="14.67605232874687" />
+      <entry key="M5" value="18.483882557369984" />
+      <entry key="M10" value="46.169817597029585" />
+      <entry key="M15" value="79.3163666823076" />
+      <entry key="M30" value="147.87399895560338" />
+      <entry key="H1" value="206.10920041719694" />
+      <entry key="H2" value="244.23468897683657" />
+      <entry key="H4" value="266.07285079824817" />
+      <entry key="D1" value="285.85878551992937" />
+      <entry key="W1" value="289.4045292093432" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.4768758500680038E-48" />
-      <entry key="MS500" value="2.7156195610492565E-10" />
-      <entry key="S2" value="0.0041545197842926245" />
-      <entry key="S5" value="0.13599719402842508" />
-      <entry key="S10" value="0.518936973582969" />
-      <entry key="S30" value="1.5588271450204219" />
-      <entry key="S60" value="2.2546700769026082" />
-      <entry key="M2" value="2.8780346292350534" />
-      <entry key="M5" value="3.4600960370992095" />
-      <entry key="M10" value="3.7109655844569014" />
-      <entry key="M15" value="3.8027164101981983" />
-      <entry key="M30" value="3.8989653962725237" />
-      <entry key="H1" value="3.948865777763063" />
-      <entry key="H2" value="3.9742762507500378" />
-      <entry key="H4" value="3.9870986604624052" />
-      <entry key="D1" value="3.99784426938026" />
-      <entry key="W1" value="3.9996919032666227" />
+      <entry key="MS100" value="0.0010394240063021083" />
+      <entry key="MS500" value="0.25313870183762316" />
+      <entry key="S2" value="0.7093158053708453" />
+      <entry key="S5" value="0.8716373965602795" />
+      <entry key="S10" value="0.9336152293960718" />
+      <entry key="S30" value="0.9773631842654087" />
+      <entry key="S60" value="0.9886168057816711" />
+      <entry key="M2" value="0.9943393309888789" />
+      <entry key="M5" value="1.0163186857587116" />
+      <entry key="M10" value="1.135258749010548" />
+      <entry key="M15" value="1.2642187243592977" />
+      <entry key="M30" value="1.5143821552173107" />
+      <entry key="H1" value="1.7172795569209056" />
+      <entry key="H2" value="1.8469408138974432" />
+      <entry key="H4" value="1.9202980023097667" />
+      <entry key="D1" value="1.9862529849256398" />
+      <entry key="W1" value="1.998024484581197" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.973152286218492" />
-      <entry key="MS500" value="1.4175313158643228" />
-      <entry key="S2" value="2.333192444710026" />
-      <entry key="S5" value="5.352053595101871" />
-      <entry key="S10" value="12.388101915343158" />
-      <entry key="S30" value="46.81992074652788" />
-      <entry key="S60" value="88.54087459310705" />
-      <entry key="M2" value="137.9958870698281" />
-      <entry key="M5" value="191.0057030353279" />
-      <entry key="M10" value="215.2556386992857" />
-      <entry key="M15" value="224.29359507843435" />
-      <entry key="M30" value="233.86303925874086" />
-      <entry key="H1" value="238.85822895245605" />
-      <entry key="H2" value="241.41048888245996" />
-      <entry key="H4" value="242.70054959716614" />
-      <entry key="D1" value="243.782769580713" />
-      <entry key="W1" value="243.96895099042678" />
+      <entry key="MS100" value="1.7736179443519973" />
+      <entry key="MS500" value="2.6773875183519853" />
+      <entry key="S2" value="5.650411138687525" />
+      <entry key="S5" value="9.830146235435455" />
+      <entry key="S10" value="12.40494844133786" />
+      <entry key="S30" value="14.664911191892534" />
+      <entry key="S60" value="15.313647155891813" />
+      <entry key="M2" value="15.658288456005073" />
+      <entry key="M5" value="19.494971948716685" />
+      <entry key="M10" value="47.301092167439755" />
+      <entry key="M15" value="80.57682994785696" />
+      <entry key="M30" value="149.38536160077996" />
+      <entry key="H1" value="207.82448378642096" />
+      <entry key="H2" value="246.08047221305554" />
+      <entry key="H4" value="267.99252429872485" />
+      <entry key="D1" value="287.84492751489404" />
+      <entry key="W1" value="291.4025376613625" />
     </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3G1iOVTt6RxY96TPnmk6FWqoxMO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "feature/subscriptions-domain",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "feature/devices",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.Dev-ilTeam.Hera.Platform: IIS Express">
+    <configuration name="Dev-ilTeam.Hera.Platform: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Dev-ilTeam.Hera.Platform/Dev-ilTeam.Hera.Platform.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Dev-ilTeam.Hera.Platform: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Dev-ilTeam.Hera.Platform/Dev-ilTeam.Hera.Platform.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Dev-ilTeam.Hera.Platform: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Dev-ilTeam.Hera.Platform/Dev-ilTeam.Hera.Platform.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="https" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c49a340-27c1-4c78-8fe6-7d122071bbe1" name="Changes" comment="" />
+      <created>1783145446866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783145446866</updated>
+      <workItem from="1783145449138" duration="956000" />
+    </task>
     <servers />
   </component>
-  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
 </project>
