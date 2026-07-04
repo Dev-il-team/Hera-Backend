@@ -50,9 +50,19 @@
         </EmbeddedResource>
         <EmbeddedResource Update="EnergyAnalytics\Resources\EnergyAnalyticsMessages.es.resx">
             <DependentUpon>EnergyAnalyticsMessages.cs</DependentUpon>
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>EnergyAnalyticsMessages.es.Designer.cs</LastGenOutput>
         </EmbeddedResource>
         <EmbeddedResource Update="Subscriptions\Resources\SubscriptionsMessages.es.resx">
             <DependentUpon>SubscriptionsMessages.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Update="EnergyAnalytics\Resources\EnergyAnalyticsMessages.resx">
+          <Generator>ResXFileCodeGenerator</Generator>
+          <LastGenOutput>EnergyAnalyticsMessages.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+        <EmbeddedResource Update="EnergyAnalytics\Resources\EnergyAnalyticsMessages.es.resx">
+          <Generator>ResXFileCodeGenerator</Generator>
+          <LastGenOutput>EnergyAnalyticsMessages.es.Designer.cs</LastGenOutput>
         </EmbeddedResource>
     </ItemGroup>
 
