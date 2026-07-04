@@ -66,4 +66,8 @@
         </EmbeddedResource>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Devices\" />
+    </ItemGroup>
+
 </Project>
