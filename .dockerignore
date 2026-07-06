@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+**/.vs/
+**/.idea/
+.git/
+.gitignore
+_ReSharper.Caches/
+riderModule.iml
+docker-compose.yml
+README.md
