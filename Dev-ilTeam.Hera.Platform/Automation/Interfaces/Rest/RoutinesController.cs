@@ -13,7 +13,7 @@ using Swashbuckle.AspNetCore.Annotations;
 
 namespace Dev_ilTeam.Hera.Platform.Automation.Interfaces.Rest;
 
-[Authorize]
+
 [ApiController]
 [Route("api/v1/[controller]")]
 [Produces(MediaTypeNames.Application.Json)]
@@ -64,6 +64,7 @@ public class RoutinesController(
                 RoutineResourceFromEntityAssembler.ToResourceFromEntity(created)));
     }
 
+    [AllowAnonymous]
     [HttpGet]
     [SwaggerOperation("Get All Routines", "List all programmed routines.", OperationId = "GetAllRoutines")]
     [SwaggerResponse(StatusCodes.Status200OK, "The list of routines.", typeof(IEnumerable<RoutineResource>))]
