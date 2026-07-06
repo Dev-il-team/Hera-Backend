@@ -15,8 +15,9 @@ public class RequestAuthorizationMiddleware(RequestDelegate next)
         var cancellationToken = context.RequestAborted;
         Console.WriteLine("Entering InvokeAsync");
 
-        var allowAnonymous = context.Request.HttpContext.GetEndpoint()!.Metadata
-            .Any(m => m.GetType() == typeof(AllowAnonymousAttribute));
+        var endpoint = context.GetEndpoint();
+        var allowAnonymous = endpoint is null
+            || endpoint.Metadata.Any(m => m is AllowAnonymousAttribute);
         Console.WriteLine($"Allow Anonymous is {allowAnonymous}");
         if (allowAnonymous)
         {
@@ -43,6 +44,4 @@ public class RequestAuthorizationMiddleware(RequestDelegate next)
         context.Items["User"] = user;
         Console.WriteLine("Continuing with Middleware Pipeline");
 
-        await next(context);
-    }
-}
+        await next(context
