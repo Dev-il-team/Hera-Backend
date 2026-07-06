@@ -15,10 +15,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c49a340-27c1-4c78-8fe6-7d122071bbe1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.hera-platform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hera-platform/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dev-ilTeam.Hera.Platform/EnergyAnalytics/Interfaces/REST/Transform/RecordConsumptionCommandFromResourceAssembler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev-ilTeam.Hera.Platform/EnergyAnalytics/Interfaces/REST/Transform/RecordConsumptionCommandFromResourceAssembler.cs" afterDir="false" />
-    </list>
+    <list default="true" id="3c49a340-27c1-4c78-8fe6-7d122071bbe1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +26,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.ai/mcp/mcp.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dev-ilTeam.Hera.Platform/EnergyAnalytics/Interfaces/ConsumptionReportsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dev-ilTeam.Hera.Platform/EnergyAnalytics/Interfaces/REST/Transform/EnergyAnalyticsActionResultAssembler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dev-ilTeam.Hera.Platform/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dev-ilTeam.Hera.Platform/Shared/Infrastructure/Persistence/EntityFrameworkCore/Configuration/AppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -117,7 +118,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "fix/environment",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
