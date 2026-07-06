@@ -95,7 +95,7 @@ builder.Services.AddDbContext<AppDbContext>((serviceProvider, options) =>
     if (string.IsNullOrWhiteSpace(connectionString))
         throw new InvalidOperationException("Database connection string is not set in the configuration.");
 
-    options.UseMySQL(connectionString)
+    options.UseNpgsql(connectionString)
         .UseLoggerFactory(serviceProvider.GetRequiredService<ILoggerFactory>())
         .EnableDetailedErrors();
 
@@ -198,8 +198,27 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
+    var logger = services.GetRequiredService<ILogger<Program>>();
     var context = services.GetRequiredService<AppDbContext>();
-    context.Database.EnsureCreated();
+
+    const int maxRetries = 10;
+    var delay = TimeSpan.FromSeconds(5);
+    for (var attempt = 1; attempt <= maxRetries; attempt++)
+    {
+        try
+        {
+            context.Database.EnsureCreated();
+            logger.LogInformation("Database ready (attempt {Attempt}/{MaxRetries}).", attempt, maxRetries);
+            break;
+        }
+        catch (Exception ex) when (attempt < maxRetries)
+        {
+            logger.LogWarning(ex,
+                "Database not reachable (attempt {Attempt}/{MaxRetries}). Retrying in {Delay}s...",
+                attempt, maxRetries, delay.TotalSeconds);
+            Thread.Sleep(delay);
+        }
+    }
 }
 
 app.UseGlobalExceptionHandler();

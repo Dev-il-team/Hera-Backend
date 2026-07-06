@@ -15,8 +15,8 @@
         <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="10.0.8"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Relational.Design" Version="1.1.6"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.8"/>
-        <!-- MySQL Database Persistence related packages -->
-        <PackageReference Include="MySql.EntityFrameworkCore" Version="10.0.7"/>
+        <!-- PostgreSQL Database Persistence related packages -->
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.1"/>
         <!-- Naming convention conversion related packages -->
         <PackageReference Include="Humanizer" Version="3.0.10"/>
         <!-- OpenAPI documentation related packages -->
@@ -84,6 +84,4 @@
 
     <ItemGroup>
       <Folder Include="Subscriptions\" />
-    </ItemGroup>
-
-</Project>
+    </ItemGroup
